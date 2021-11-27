@@ -20,7 +20,7 @@ def run():
 	i = random.choice(("[✓]"))
 	while True:
 	  try:
-		 s = socket.socket(socket.AF _INET, socket.SOCK_DGRAM, socket.SOCK_STREAM)
+		 s = socket.socket(socket.AF _INET, socket.STREAM)
          addr = (str(ip),int(port))
          for x in range(times)
             s.sendto(data,adr)
